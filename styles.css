@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "mulish", sans-serif;
+}
+
+.outerDiv {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 174, 0);
+    display: grid;
+    place-items: center;
+}
+.innerDiv {
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+.main-heading {
+    padding: 30px;
+    color: #ffff;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+    font-size: 140px;
+}
